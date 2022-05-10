@@ -1,20 +1,28 @@
-﻿# AI-900 練習ラボの位置づけ
+---
+ms.openlocfilehash: 69f8fd8920fccc0aecc4fb5d5a40e506935f8340
+ms.sourcegitcommit: 276908bd75615fb4d4712b912426129587e9c307
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "140788223"
+---
+# <a name="ai-900-trainer-lab-mapping"></a>AI-900 練習ラボの位置づけ
 
-このコース AI-900: AI の基礎は、複数のラボからの抜粋であり、1 日コースに合うように調整され、講師主導型のトレーニングとして構成されています。
+このコース AI-900:AI の基礎は、複数のラボからの抜粋であり、1 日コースに合うように調整され、講師主導型のトレーニングとして構成されています。
 
-AI-900 練習ラボは AI-900 ラボ (01-11) の一部であり、[AI-900 ラボ リポジトリ](https://github.com/MicrosoftLearning/AI-900JA-Microsoft-Azure-AI-Fundamentals)から取得できます。
+AI-900 練習ラボは、Microsoft Learn で見られる AI-900 ラボのサブセットです。
 
-> 注: 講師は、コースを指導する際に、AI-900 ラボのフルセット (01-11) からモジュールに追加するラボを選択できます。
+> 注: 講師は、コースを指導する際に、AI-900 ラボのフルセットからモジュールに追加するラボを選択できます。
 
-## AI-900 モジュールとラボのマッピング
+## <a name="ai-900-module-mapping-to-labs"></a>AI-900 モジュールとラボのマッピング
 
 このコースで使用する AI-900 ラボの一部は、モジュールごとに次のように対応しています。 
 
-| AI-900 練習ラボ番号 | トピック | マークダウン ファイル |
+| AI-900 練習ラボ番号 | トピック | Instructions |
 | --- | --- | --- |
-| 01: AI-900 モジュール 01 | Azure で人工知能を使ってみる | [00 - Get started with AI on Azure.md](https://github.com/MicrosoftLearning/AI-900JA-Microsoft-Azure-AI-Fundamentals/blob/master/Instructions/00%20-%20Get%20started%20with%20AI%20on%20Azure.md) |
-| 02: AI-900 モジュール 02 | Azure Machine Learning で自動機械学習を使用する | [00a-automated-machine-learning.md](https://github.com/MicrosoftLearning/AI-900JA-Microsoft-Azure-AI-Fundamentals/blob/master/Instructions/00a-automated-machine-learning.md) |
-| 03: AI-900 モジュール 03 | 画像の分類  | [02-lab-Instructions.md](https://github.com/MicrosoftLearning/AI-900JA-Microsoft-Azure-AI-Fundamentals/blob/master/Instructions/02-lab-Instructions.md) |
-| 04: AI-900 モジュール 04 | Language Understanding | [10-lab-Instructions.md](https://github.com/MicrosoftLearning/AI-900JA-Microsoft-Azure-AI-Fundamentals/blob/master/Instructions/10-lab-Instructions.md) |
-| 05: AI-900 モジュール 05 | QnA ボット | [11-lab-Instructions.md](https://github.com/MicrosoftLearning/AI-900JA-Microsoft-Azure-AI-Fundamentals/blob/master/Instructions/11-lab-Instructions.md) |
+| 01:AI-900 モジュール 01 | Cognitive Services を確認する | [01-Lab-Instructions](https://aka.ms/ai900-module-01) |
+| 02:AI-900 モジュール 02 | 自動機械学習を確認する | [02-Lab-Instructions](https://aka.ms/ai900-module-02) |
+| 03:AI-900 モジュール 03 | Computer Vision を使用する画像の分析  | [03-Lab-Instructions](https://aka.ms/ai900-module-03) |
+| 04:AI-900 モジュール 04 | 言語サービスを使用してテキストを分析する | [04-Lab-Instructions](https://aka.ms/ai900-module-04) |
+
 
