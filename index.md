@@ -18,5 +18,5 @@ ms.locfileid: "140688694"
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/instructions'" %}
 | 演習 |
 | ------- | 
-{% for activity in labs %}| [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in labs  %}| [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
