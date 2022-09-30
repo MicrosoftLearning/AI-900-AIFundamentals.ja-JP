@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 69f8fd8920fccc0aecc4fb5d5a40e506935f8340
+ms.sourcegitcommit: 276908bd75615fb4d4712b912426129587e9c307
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "140788223"
+---
 # <a name="ai-900-trainer-lab-mapping"></a>AI-900 練習ラボの位置づけ
 
 このコース AI-900:AI の基礎は、複数のラボからの抜粋であり、1 日コースに合うように調整され、講師主導型のトレーニングとして構成されています。
