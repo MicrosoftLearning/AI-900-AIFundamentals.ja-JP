@@ -1,22 +1,14 @@
----
-ms.openlocfilehash: 4e00e832d02871de3fa4511273434b6e8db58df3
-ms.sourcegitcommit: 71edd7d093464547be5a87725ef67dad082aafbf
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "147629852"
----
 # <a name="ai-900-microsoft-azure-ai-fundamentals"></a>AI-900: Microsoft Azure AI の基礎
 
-このリポジトリには、Microsoft のコース [AI-900 "*Microsoft Azure AI の基礎*"](https://docs.microsoft.com/en-us/learn/certifications/courses/ai-900t00) のハンズオン ラボの演習と、[自分のペースで進められる Microsoft Learn のモジュール](https://docs.microsoft.com/learn/certifications/azure-ai-fundamentals)が含まれています。 ラボは学習教材に沿って設計されており、教材で説明されているテクノロジを利用して学習できます。 
+This repository contains the hands-on lab exercises for Microsoft course <bpt id="p1">[</bpt>AI-900 <bpt id="p2">*</bpt>Microsoft Azure AI Fundamentals<ept id="p2">*</ept><ept id="p1">](https://docs.microsoft.com/en-us/learn/certifications/courses/ai-900t00)</ept> and the <bpt id="p3">[</bpt>self-paced modules on Microsoft Learn<ept id="p3">](https://docs.microsoft.com/learn/certifications/azure-ai-fundamentals)</ept>. The labs are designed to accompany the learning materials and enable you to practice using the technologies they describe. 
 
-- **あなたは MCT ですか?** - [MCT 向けの GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide/)をご覧ください
+- <bpt id="p1">**</bpt>Are you a MCT?<ept id="p1">**</ept> - Have a look at our <bpt id="p1">[</bpt>GitHub User Guide for MCTs<ept id="p1">](https://microsoftlearning.github.io/MCT-User-Guide/)</ept>
 
 ## <a name="what-are-we-doing"></a>説明
 
-- このコースをサポートするには、コースで使用される Azure サービスを最新の状態に保つために、コース コンテンツを頻繁に更新する必要があります。  ラボの手順とラボ ファイルは GitHub で公開しています。これにより、コースの作成者と MCT 間でのオープンな作業が可能となり、Azure プラットフォームの変更に合わせてコンテンツを最新の状態に保つことができます。
+- このリポジトリには、Microsoft のコース [AI-900 "*Microsoft Azure AI の基礎*"](https://docs.microsoft.com/en-us/learn/certifications/courses/ai-900t00) のハンズオン ラボの演習と、[自分のペースで進められる Microsoft Learn のモジュール](https://docs.microsoft.com/learn/certifications/azure-ai-fundamentals)が含まれています。
 
-- これにより、今まで経験したことがないようなコラボレーション感がラボに生まれると期待しています。Azure が変更され、ライブ配信中にあなたがそれを最初に見つけた場合は、ラボ ソースで機能強化を行ってください。  仲間の MCT を支援しましょう。
+- ラボは学習教材に沿って設計されており、教材で説明されているテクノロジを利用して学習できます。
 
 ## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>リリースされた MOC のファイルに対してこれらのファイルを使用する方法
 
@@ -30,8 +22,8 @@ ms.locfileid: "147629852"
 
 - 受講者ハンドブックは四半期ごとに見直し、必要があれば通常の MOC リリースの手順を通して更新します。
 
-## <a name="how-do-i-contribute"></a>投稿方法
+## <a name="how-do-i-contribute"></a>貢献するには?
 
 - すべての MCT は、GitHub repro のコードまたはコンテンツに pull request を送信できます。Microsoft とコース作成者は、必要に応じてコンテンツとラボ コードの変更をトリアージして追加します。
 
-- バグ、変更、改善、アイデアを送信できます。  新しい Azure 機能を先に見つけたら、  新しいデモを提出しましょう。
+- You can submit bugs, changes, improvement and ideas.  Find a new Azure feature before we have?  Submit a new demo!
