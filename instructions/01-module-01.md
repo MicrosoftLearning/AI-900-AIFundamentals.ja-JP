@@ -1,14 +1,9 @@
 ---
 lab:
   title: Cognitive Services を確認する
-ms.openlocfilehash: 53615bbe4bc6de0237022e6f759e9fb6ffc1be13
-ms.sourcegitcommit: b3c7eccbe099234cfb6bde0a93b141d185da965b
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "147694267"
 ---
-## <a name="explore-cognitive-services"></a>Cognitive Services を確認する
+
+# <a name="explore-cognitive-services"></a>Cognitive Services を確認する
 
 > **注** このラボを完了するには、管理者アクセス権が与えられている [Azure サブスクリプション](https://azure.microsoft.com/free?azure-portal=true)が必要です。
 
@@ -28,8 +23,8 @@ Azure サブスクリプション内に **Anomaly Detector** リソースを作�
 
 1. **[&#65291;リソースの作成]** ボタンをクリックして、*[Anomaly Detector]* を検索し、以下の設定を使用して **Anomaly Detector** リソースを作成します。
     - **[サブスクリプション]**: *お使いの Azure サブスクリプション*。
-    - **[リソース グループ]**: 既存のリソース グループを選択するか、新しいリソース グループを作成します。
-    - **リージョン**: 使用できるリージョンを選択します
+    - **[リソース グループ]**: 既存のリソース グループを選択するか、新しいリソース グループを作成します。**
+    - **リージョン**: 使用できるリージョンを選択します**
     - **[名前]**: *一意の名前を入力します*。
     - **価格レベル**: Free F0
 
@@ -112,3 +107,15 @@ Cloud Shell 環境を用意できたので、Anomaly Detector サービスを使
 ## <a name="learn-more"></a>詳細情報
 
 この簡単なアプリでは、Anomaly Detector サービスの一部の機能のみを示しています。 このサービスで実行できることの詳細を確認するには、[Anomaly Detector のページ](https://azure.microsoft.com/services/cognitive-services/anomaly-detector/)を参照してください。
+
+## <a name="clean-up"></a>クリーンアップ
+
+プロジェクトの最後に、作成したリソースがまだ必要かどうかを確認することをお勧めします。 リソースを実行したままにすると、お金がかかる場合があります。 
+
+他の AI の基礎のモジュールに進む場合は、リソースを他のラボで使用できるように保持することができます。
+
+学習を終了した場合は、Azure サブスクリプションからリソース グループまたは個々のリソースを削除できます。
+
+1. [Azure portal](https://portal.azure.com/) の **[リソース グループ]** ページで、リソースの作成時に指定したリソース グループを開きます。
+
+2. **[リソース グループの削除]** をクリックし、リソース グループ名を入力して削除することを確認し、**[削除]** を選択します。 また、リソースを選択し、3 つのドットをクリックしてその他のオプションを表示し、**[削除]** をクリックすることで、個々のリソースを削除することもできます。
