@@ -126,9 +126,11 @@ Azure Machine Learning デザイナーの使用を開始するには、最初に
 
     ![デザイナー資産ライブラリ、検索バー、コンポーネント アイコンの場所のスクリーンショット。](media/create-classification-model/designer-asset-library-components.png)
 
-1. **[データの正規化]** モジュールを見つけ、キャンバスの **diabetes-data** データセットの下に配置します。 続いて、次のように **diabetes-data** データセットの下部からの出力を **[データの正規化]** モジュールの上部の入力に接続します。
+1. **[データセット内の列の選択]** モジュールを見つけ、キャンバスの **[diabetes-data]** データセットの下に配置します。 続いて、 **[diabetes-data]** データセットの下部からの出力を **[データセット内の列の選択]** モジュールの上部の入力に接続します。
 
-    ![データセットがデータの正規化モジュールに接続されているパイプラインのスクリーンショット。](media/create-classification-model/dataset-normalize.png)
+1. **[データセットの正規化]** モジュールを見つけ、キャンバスの **[データセット内の列の選択]** モジュールの下に配置します。 続いて、次のように **[データセット内の列の選択]** モジュールの下部からの出力を **[データの正規化]** モジュールの上部の入力に接続します。
+
+    ![データセットが列の選択とデータの正規化モジュールに接続されているパイプラインのスクリーンショット。](media/create-classification-model/dataset-normalize.png)
 
 1. **[データの正規化]** モジュールをダブルクリックしてその設定を表示して、変換の方法と変換する列の指定が必要であることがわかります。 
 
@@ -277,6 +279,7 @@ Azure Machine Learning デザイナーの使用を開始するには、最初に
     
     - 新しいデータを送信するための **[Web サービス入力]** コンポーネントを追加します。
     - **diabetes-data** データセットを、ラベル列 (**Diabetic**) を含まない **[Enter Data Manually](データの手動入力)** モジュールで置き換えます。
+    - **[データセット内の列の選択]** モジュールで選択した列を編集します。
     - **[Evaluate Mode](モデル評価)** モジュールを削除します。
     - Web サービス出力の前に **[Python スクリプトの実行]** モジュールを挿入して、患者 ID、予測ラベル値、および確率のみを返すようにします。
 
@@ -293,6 +296,8 @@ Azure Machine Learning デザイナーの使用を開始するには、最初に
 
 1. 新しい **[Enter Data Manually](データの手動入力)** モジュールを、**[Web Service Input](Web サービス入力)** と同じ **[Apply Transformation](変換の適用)** モジュールの**データセット**入力に接続します。
 
+1. **[データセット内の列の選択]** モジュールを編集します。 "選択した列" から **[Diabetic]** を削除します。** 
+
 1. 推論パイプラインには **[Evaluate Mode](モデル評価)** モジュールが含まれていますが、このモジュールは、新しいデータから予測するときには役に立たないため削除します。
 
 1. **[Score Model](モデルのスコア付け)** モジュールからの出力には、すべての入力の特徴、および予測ラベルと確率スコアが含まれます。 出力を予測と確率のみに制限するには:
@@ -304,7 +309,7 @@ import pandas as pd
 
 def azureml_main(dataframe1 = None, dataframe2 = None):
 
-    scored_results = dataframe1[['PatientID', 'Scored Labels', 'Scored Probabilities']]
+    scored_results = dataframe1[['Scored Labels', 'Scored Probabilities']]
     scored_results.rename(columns={'Scored Labels':'DiabetesPrediction',
                                 'Scored Probabilities':'Probability'},
                         inplace=True)

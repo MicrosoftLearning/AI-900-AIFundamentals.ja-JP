@@ -1,14 +1,9 @@
 ---
 lab:
-  title: Computer Vision を使用して画像を分析する
-ms.openlocfilehash: 968aa693a11c61c953e57e2f8e824512bbe029f4
-ms.sourcegitcommit: b3c7eccbe099234cfb6bde0a93b141d185da965b
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "147694274"
+  title: Computer Vision の詳細を確認する
 ---
-## <a name="analyze-images-with-computer-vision"></a>Computer Vision を使用して画像を分析する
+
+# <a name="explore-computer-vision"></a>Computer Vision の詳細を確認する
 
 > **注** このラボを完了するには、管理者アクセス権が与えられている [Azure サブスクリプション](https://azure.microsoft.com/free?azure-portal=true)が必要です。
 
@@ -20,7 +15,7 @@ ms.locfileid: "147694274"
 
 ## <a name="create-a-cognitive-services-resource"></a>*Cognitive Services* リソースを作成する
 
-Computer Vision サービスを使用するには、**Computer Vision** リソースまたは **Cognitive Services** リソースを作成します。
+Computer Vision サービスを使用するには、**Computer Vision** リソースまたは **Cognitive Services**リソースを作成します。
 
 まだ作成していない場合は、Azure サブスクリプションに **Cognitive Services** リソースを作成します。
 
@@ -29,7 +24,7 @@ Computer Vision サービスを使用するには、**Computer Vision** リソ�
 1. **[&#65291;リソースの作成]** ボタンをクリックして、「*Cognitive Services*」を検索し、次の設定を使用して **Cognitive Services** リソースを作成します。
     - **[サブスクリプション]**: *お使いの Azure サブスクリプション*。
     - **[リソース グループ]**: *一意の名前のリソース グループを選択するか、作成します*。
-    - **リージョン**: 使用できるリージョンを選択します
+    - **リージョン**: 使用できるリージョンを選択します**
     - **[名前]**: *一意の名前を入力します*。
     - **価格レベル**: Standard S0
     - **このボックスをオンにすることで、私は以下のすべての契約条件を読んで理解したことを認めます**: 選択されています。
