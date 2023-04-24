@@ -1,6 +1,7 @@
 ---
 lab:
   title: Azure Machine Learning デザイナーを使用して回帰を調べる
+  module: Module 2 - Machine Learning
 ---
 
 # <a name="explore-regression-with-azure-machine-learning-designer"></a>Azure Machine Learning デザイナーを使用して回帰を調べる

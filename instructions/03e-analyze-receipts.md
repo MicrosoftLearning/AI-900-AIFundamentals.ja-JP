@@ -1,6 +1,7 @@
 ---
 lab:
   title: フォーム認識について調べる
+  module: Module 3 - Computer Vision
 ---
 
 # <a name="explore-form-recognition"></a>フォーム認識について調べる

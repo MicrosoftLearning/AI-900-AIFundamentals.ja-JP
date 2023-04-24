@@ -1,6 +1,7 @@
 ---
 lab:
   title: ナレッジ マイニングについて調べる
+  module: Module 5 - Conversational AI
 ---
 
 # <a name="explore-knowledge-mining"></a>ナレッジ マイニングについて調べる

@@ -1,6 +1,7 @@
 ---
 lab:
   title: 光学式文字認識について調べる
+  module: Module 3 - Computer Vision
 ---
 
 # <a name="explore-optical-character-recognition"></a>光学式文字認識について調べる

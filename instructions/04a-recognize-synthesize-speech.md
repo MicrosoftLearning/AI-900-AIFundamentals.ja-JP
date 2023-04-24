@@ -1,6 +1,7 @@
 ---
 lab:
   title: スピーチについて調べる
+  module: Module 4 - Natural Language Processing (NLP)
 ---
 
 # <a name="explore-speech"></a>スピーチについて調べる
