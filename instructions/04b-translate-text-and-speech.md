@@ -1,7 +1,6 @@
 ---
 lab:
   title: 翻訳を調べる
-  module: Module 4 - Natural Language Processing (NLP)
 ---
 
 # <a name="explore-translation"></a>翻訳を調べる

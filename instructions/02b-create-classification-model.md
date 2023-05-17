@@ -1,7 +1,6 @@
 ---
 lab:
   title: Azure Machine Learning デザイナーを使った分類について調べる
-  module: Module 2 - Machine Learning
 ---
 
 # <a name="explore-classification-with-azure-machine-learning-designer"></a>Azure Machine Learning デザイナーを使った分類について調べる

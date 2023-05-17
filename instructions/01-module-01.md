@@ -1,7 +1,6 @@
 ---
 lab:
   title: Cognitive Services を確認する
-  module: Module 1 - Introduction to AI
 ---
 
 # <a name="explore-cognitive-services"></a>Cognitive Services を確認する

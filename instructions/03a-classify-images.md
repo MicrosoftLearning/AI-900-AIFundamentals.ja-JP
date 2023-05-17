@@ -1,7 +1,6 @@
 ---
 lab:
   title: 画像分類について調べる
-  module: Module 3 - Computer Vision
 ---
 
 # <a name="explore-image-classification"></a>画像分類について調べる

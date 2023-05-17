@@ -1,7 +1,6 @@
 ---
 lab:
   title: 物体検出について調べる
-  module: Module 3 - Computer Vision
 ---
 
 # <a name="explore-object-detection"></a>物体検出について調べる

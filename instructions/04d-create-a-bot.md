@@ -1,7 +1,6 @@
 ---
 lab:
   title: 質問応答について調べる
-  module: Module 4 - Natural Language Processing (NLP)
 ---
 
 # <a name="explore-question-answering"></a>質問応答について調べる

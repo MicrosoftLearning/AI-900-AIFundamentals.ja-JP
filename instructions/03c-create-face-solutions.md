@@ -1,7 +1,6 @@
 ---
 lab:
   title: 顔認識について調べる
-  module: Module 3 - Computer Vision
 ---
 
 # <a name="explore-face-recognition"></a>顔認識について調べる
