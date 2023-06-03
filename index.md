@@ -15,4 +15,3 @@ layout: home
 | ------- | 
 {% for activity in labs %}| [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
-
