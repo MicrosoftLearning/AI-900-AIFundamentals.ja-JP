@@ -3,7 +3,7 @@ lab:
   title: テキスト分析について調べる
 ---
 
-# <a name="explore-text-analytics"></a>テキスト分析について調べる
+# テキスト分析について調べる
 
 > **注** このラボを完了するには、管理者アクセス権が与えられている [Azure サブスクリプション](https://azure.microsoft.com/free?azure-portal=true)が必要です。
 
@@ -15,7 +15,7 @@ Microsoft Azure *Cognitive Services* には "言語" サービス内にテキス
 
 言語サービスの機能をテストするために、Cloud Shell で実行する単純なコマンドライン アプリケーションを使用します。 Web サイトや電話アプリなど、実際のソリューションにも同じ原則と機能が適用されます。
 
-## <a name="create-a-cognitive-services-resource"></a>*Cognitive Services* リソースを作成する
+## *Cognitive Services* リソースを作成する
 
 言語サービスを使用するには、**言語**リソースまたは **Cognitive Services** リソースを作成します。
 
@@ -33,13 +33,13 @@ Microsoft Azure *Cognitive Services* には "言語" サービス内にテキス
 
 1. リソースを確認して作成します。
 
-### <a name="get-the-key-and-endpoint-for-your-cognitive-services-resource"></a>Cognitive Services のリソースのキーとエンドポイントを取得する
+### Cognitive Services のリソースのキーとエンドポイントを取得する
 
 1. デプロイが完了するまで待ちます。 次に、Cognitive Services リソースに移動し、**[概要]** ページで、サービスのキーを管理するためのリンクを選択します。 クライアント アプリケーションから Cognitive Services リソースに接続するには、エンドポイントとキーが必要です。
 
 1. リソースの **[キーとエンドポイント]** ページを表示します。 クライアント アプリケーションから接続するには、**キー**と**エンドポイント**が必要です。
 
-## <a name="run-cloud-shell"></a>Cloud Shell の実行
+## Cloud Shell の実行
 
 言語サービスのテキスト分析機能をテストするために、Azure の Cloud Shell で実行される単純なコマンドライン アプリケーションを使用します。
 
@@ -61,7 +61,7 @@ Microsoft Azure *Cognitive Services* には "言語" サービス内にテキス
 
     ![PowerShell が起動するまで待ちます。](media/analyze-text-language-service/powershell-prompt.png)
 
-## <a name="configure-and-run-a-client-application"></a>クライアント アプリケーションを構成して実行する
+## クライアント アプリケーションを構成して実行する
 
 カスタム モデルが作成されたので、言語サービスを使用するシンプルなクライアント アプリケーションを実行できます。
 
@@ -154,6 +154,6 @@ Microsoft Azure *Cognitive Services* には "言語" サービス内にテキス
 
 1. 出力結果を確認します。
 
-## <a name="learn-more"></a>詳細情報
+## 詳細情報
 
 このシンプルなアプリでは、言語サービスの一部の機能のみを示しています。 このサービスで実行できる操作の詳細については、[言語サービスのページ](https://azure.microsoft.com/services/cognitive-services/language-service/)を参照してください。
