@@ -3,7 +3,7 @@ lab:
   title: Computer Vision の詳細を確認する
 ---
 
-# <a name="explore-computer-vision"></a>Computer Vision の詳細を確認する
+# Computer Vision の詳細を確認する
 
 > **注** このラボを完了するには、管理者アクセス権が与えられている [Azure サブスクリプション](https://azure.microsoft.com/free?azure-portal=true)が必要です。
 
@@ -13,7 +13,7 @@ lab:
 
 このラボでは、単純なコマンド ライン アプリケーションを使用して、Computer Vision サービスが動作しているのを確認します。 Web サイトや電話アプリなど、実際のソリューションにも同じ原則と機能が適用されます。
 
-## <a name="create-a-cognitive-services-resource"></a>*Cognitive Services* リソースを作成する
+## *Cognitive Services* リソースを作成する
 
 Computer Vision サービスを使用するには、**Computer Vision** リソースまたは **Cognitive Services**リソースを作成します。
 
@@ -33,7 +33,7 @@ Computer Vision サービスを使用するには、**Computer Vision** リソ�
 
 1. Cognitive Services リソースの **[キーとエンドポイント]** ページを表示します。 クライアント アプリケーションから接続するには、エンドポイントとキーが必要です。
 
-## <a name="run-cloud-shell"></a>Cloud Shell の実行
+## Cloud Shell の実行
 
 Computer Vision サービスの機能をテストするために、Azure の Cloud Shell で実行される単純なコマンドライン アプリケーションを使用します。
 
@@ -55,7 +55,7 @@ Computer Vision サービスの機能をテストするために、Azure の Clo
 
     ![PowerShell が起動するまで待ちます。](media/analyze-images-computer-vision-service/powershell-prompt.png)
 
-## <a name="configure-and-run-a-client-application"></a>クライアント アプリケーションを構成して実行する
+## クライアント アプリケーションを構成して実行する
 
 Cloud Shell 環境を用意できたので、Computer Vision サービスを使用して画像を分析する単純なアプリケーションを実行できます。
 
@@ -134,6 +134,6 @@ Cloud Shell 環境を用意できたので、Computer Vision サービスを使�
 
 1. 3 番目の画像の分析結果を確認します。
 
-## <a name="learn-more"></a>詳細情報
+## 詳細情報
 
 このシンプルなアプリでは、Computer Vision サービスの一部の機能しか示されていません。 このサービスで実行できる操作の詳細については、[Computer Vision のページ](https://azure.microsoft.com/services/cognitive-services/computer-vision/)を参照してください。

@@ -3,7 +3,7 @@ lab:
   title: フォーム認識について調べる
 ---
 
-# <a name="explore-form-recognition"></a>フォーム認識について調べる
+# フォーム認識について調べる
 
 > **注** このラボを完了するには、管理者アクセス権が与えられている [Azure サブスクリプション](https://azure.microsoft.com/free?azure-portal=true)が必要です。
 
@@ -15,7 +15,7 @@ Form Recognizer は、トレーニング済みの機械学習モデルを使用�
 
 Form Recognizer サービスの機能をテストするために、Cloud Shell で実行する単純なコマンドライン アプリケーションを使用します。 Web サイトや電話アプリなど、実際のソリューションにも同じ原則と機能が適用されます。
 
-## <a name="create-a-cognitive-services-resource"></a>*Cognitive Services* リソースを作成する
+## *Cognitive Services* リソースを作成する
 
 Form Recognizer サービスを使用するには、**Form Recognizer** リソースまたは **Cognitive Services** リソースを作成します。
 
@@ -35,7 +35,7 @@ Form Recognizer サービスを使用するには、**Form Recognizer** リソ�
 
 1. Cognitive Services リソースの **[キーとエンドポイント]** ページを表示します。 クライアント アプリケーションから接続するには、エンドポイントとキーが必要です。
 
-## <a name="run-cloud-shell"></a>Cloud Shell の実行
+## Cloud Shell の実行
 
 Form Recognizer サービスの機能をテストするために、Auzre の Cloud Shell で実行する単純なコマンドライン アプリケーションを使用します。 
 
@@ -57,7 +57,7 @@ Form Recognizer サービスの機能をテストするために、Auzre の Clo
 
     ![PowerShell が起動するまで待ちます。](media/analyze-receipts/powershell-prompt.png) 
 
-## <a name="configure-and-run-a-client-application"></a>クライアント アプリケーションを構成して実行する
+## クライアント アプリケーションを構成して実行する
 
 カスタム モデルが作成されたので、Form Recognizer を使用する簡単なクライアント アプリケーションを実行できます。
 
@@ -109,6 +109,6 @@ Form Recognizer サービスの機能をテストするために、Auzre の Clo
 
 1. 返された結果を確認します。 Form Recognizer がフォーム内のデータを解釈し、マーチャントの住所と電話番号、トランザクションの日付と時刻、および品目、小計、税金、合計金額を正しく識別できることを確認します。
 
-## <a name="learn-more"></a>詳細情報
+## 詳細情報
 
 このシンプルなアプリは、Computer Vision サービスの Form Recognizer 機能の一部を示すだけです。 このサービスで実行できる操作の詳細については、[Form Recognizer のページ](https://docs.microsoft.com/azure/applied-ai-services/form-recognizer/overview)を参照してください。

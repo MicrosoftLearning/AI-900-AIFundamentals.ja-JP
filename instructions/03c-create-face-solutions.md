@@ -3,7 +3,7 @@ lab:
   title: 顔認識について調べる
 ---
 
-# <a name="explore-face-recognition"></a>顔認識について調べる
+# 顔認識について調べる
 
 > **注** このラボを完了するには、管理者アクセス権が与えられている [Azure サブスクリプション](https://azure.microsoft.com/free?azure-portal=true)が必要です。
 
@@ -11,7 +11,7 @@ lab:
 
 Face サービスの機能をテストするために、Cloud Shell で実行する単純なコマンドライン アプリケーションを使用します。 Web サイトや電話アプリなど、実際のソリューションにも同じ原則と機能が適用されます。
 
-## <a name="create-a-cognitive-services-resource"></a>*Cognitive Services* リソースを作成する
+## *Cognitive Services* リソースを作成する
 
 Face サービスを使用するには、**Face** リソースまたは **Cognitive Services** リソースを作成します。
 
@@ -31,7 +31,7 @@ Face サービスを使用するには、**Face** リソースまたは **Cognit
 
 1. Cognitive Services リソースの **[キーとエンドポイント]** ページを表示します。 クライアント アプリケーションから接続するには、エンドポイントとキーが必要です。
 
-## <a name="run-cloud-shell"></a>Cloud Shell の実行
+## Cloud Shell の実行
 
 Face サービスの機能をテストするために、Azure の Cloud Shell で実行する単純なコマンドライン アプリケーションを使用します。 
 
@@ -53,7 +53,7 @@ Face サービスの機能をテストするために、Azure の Cloud Shell �
 
     ![PowerShell が起動するまで待ちます。](media/create-face-solutions/powershell-prompt.png)
 
-## <a name="configure-and-run-a-client-application"></a>クライアント アプリケーションを構成して実行する
+## クライアント アプリケーションを構成して実行する
 
 カスタム モデルが作成されたので、Face サービスを使用する簡単なクライアント アプリケーションを実行できます。
 
@@ -133,6 +133,6 @@ Face サービスの機能をテストするために、Azure の Cloud Shell �
 
 1. 3 番目の画像の顔分析の結果を確認します。
 
-## <a name="learn-more"></a>詳細情報
+## 詳細情報
 
 この簡単なアプリでは、Face サービスの一部の機能のみを示しています。 このサービスで実行できる操作の詳細については、[Face API のページ](https://azure.microsoft.com/services/cognitive-services/face/)をご覧ください。
