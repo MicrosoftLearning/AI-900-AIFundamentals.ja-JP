@@ -136,4 +136,4 @@ Cloud Shell 環境を用意できたので、Computer Vision サービスを使�
 
 ## 詳細情報
 
-このシンプルなアプリでは、Computer Vision サービスの一部の機能しか示されていません。 このサービスで実行できる操作の詳細については、[Computer Vision のページ](https://azure.microsoft.com/services/cognitive-services/computer-vision/)を参照してください。
+このシンプルなアプリでは、Computer Vision サービスの一部の機能しか示されていません。 このサービスで実行できる操作の詳細については、[Computer Vision のページ](https://azure.microsoft.com/products/ai-services?activetab=pivot:visiontab)を参照してください。
