@@ -13,7 +13,7 @@ Face サービスの機能をテストするために、Cloud Shell で実行す
 
 ## *Face API* リソースを作成する
 
-**Face** リソースを作成すると、Face サービスを利用できます。 (Face API は、Cognitive Services では使用できなくなりました)
+**Face** リソースを作成すると、Face サービスを利用できます。
 
 まだ作成していない場合は、Azure サブスクリプションで **Face API** リソースを作成します。
 
