@@ -1,6 +1,13 @@
+---
+lab:
+  title: Content Safety Studio について調べる＠
+---
+
 Content Safety Studio を使うと、テキストと画像のコンテンツがどのようにモデレートされるかを調べることができます。 サンプル テキストまたは画像に対してテストを実行し、カテゴリごとに安全から高までの重大度スコアを取得できます。 Content Safety AI サービスがどのように機能し、どのようなことができるかをすばやく確認できます。 
 
 このラボ演習では、Azure portal でマルチサービス Azure AI サービス リソースを作成し、そのエンドポイントとキーを調べます。 次に、Content Safety Studio を使って Content Safety AI サービスの機能を調べます。 
+
+> **注** この演習の目的は、Azure AI サービスのプロビジョニングと使用方法について一般的に理解することです。 Content Safety を例として使用しますが、この演習ではコンテンツの安全性に関する包括的な知識を得ることは想定していません。
 
 ## AI サービス リソースを作成する
 
@@ -15,6 +22,8 @@ Content Safety Studio を使うと、テキストと画像のコンテンツが�
 
 ## リソースを Content Safety Studio に関連付ける 
 別のブラウザー タブで Content Safety Studio を開いてサインインします。 [作業の開始] 画面が表示されます。
+
+![Content Safety Studio のランディング ページのスクリーンショット。](./media/content-safety/content-safety-getting-started.png)
 
 1.  右上のメニューにある [設定] の歯車をクリックします。
 2.  先ほど作成した Azure AI サービス リソースを選び、[リソースの使用] をクリックします。
