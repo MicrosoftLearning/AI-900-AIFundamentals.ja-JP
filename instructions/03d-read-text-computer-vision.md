@@ -3,7 +3,7 @@ lab:
   title: 光学式文字認識について調べる
 ---
 
-# <a name="explore-optical-character-recognition"></a>光学式文字認識について調べる
+# 光学式文字認識について調べる
 
 > **注** このラボを完了するには、管理者アクセス権が与えられている [Azure サブスクリプション](https://azure.microsoft.com/free?azure-portal=true)が必要です。
 
@@ -11,21 +11,21 @@ lab:
 
 Read API の機能をテストするために、Cloud Shell で実行されるシンプルなコマンドライン アプリケーションを使用します。 Web サイトや電話アプリなど、実際のソリューションにも同じ原則と機能が適用されます。
 
-## <a name="use-the-computer-vision-service-to-read-text-in-an-image"></a>Computer Vision サービスを使用してイメージでテキストを読み取る
+## Azure AI Vision サービスを使用してイメージでテキストを読み取る
 
-**Computer Vision** Cognitive Service では、以下のような OCR タスクのサポートが提供されます。
+**Azure AI Vision** サービスは、次のような OCR タスクのサポートを提供します。
 
 - より容量の大きいドキュメント用に最適化された **Read** API。 この API は非同期で使用され、印刷テキストと手書きテキストの両方に使用できます。
 
-## <a name="create-a-cognitive-services-resource"></a>*Cognitive Services* リソースを作成する
+## "Azure AI サービス" リソースを作成する**
 
-Computer Vision サービスを使用するには、**Computer Vision** リソースまたは **Cognitive Services**リソースを作成します。
+Azure AI Vision サービスを使用するには、**Computer Vision** リソースまたは **Azure AI サービス** リソースを作成してください。
 
-まだ作成していない場合は、Azure サブスクリプションに **Cognitive Services** リソースを作成します。
+まだ作成していない場合は、Azure サブスクリプションで **Azure AI サービス** リソースを作成します。
 
 1. 別のブラウザー タブで Azure portal ([https://portal.azure.com](https://portal.azure.com?azure-portal=true)) を開き、Microsoft アカウントでサインインします。
 
-1. **[&#65291;リソースの作成]** ボタンをクリックして、「*Cognitive Services*」を検索し、次の設定を使用して **Cognitive Services** リソースを作成します。
+1. **[&#65291;リソースの作成]** ボタンをクリックし、「Azure AI サービス」を検索してください。** **[Azure AI** **サービスの作成]** プランを選択してください。 Azure AI サービス リソースを作成するためのページに移動します。 これを以下の設定で構成します。
     - **[サブスクリプション]**: *お使いの Azure サブスクリプション*。
     - **[リソース グループ]**: *一意の名前のリソース グループを選択するか、作成します*。
     - **リージョン**: 使用できるリージョンを選択します**
@@ -35,9 +35,9 @@ Computer Vision サービスを使用するには、**Computer Vision** リソ�
 
 1. リソースを確認して作成し、デプロイが完了するまで待ちます。 次に、デプロイされたリソースに移動します。
 
-1. Cognitive Services リソースの **[キーとエンドポイント]** ページを表示します。 クライアント アプリケーションから接続するには、エンドポイントとキーが必要です。
+1. Azure AI サービス リソースの **[キーとエンドポイント]** ページを表示します。 クライアント アプリケーションから接続するには、エンドポイントとキーが必要です。
 
-## <a name="run-cloud-shell"></a>Cloud Shell の実行
+## Cloud Shell の実行
 
 Custom Vision サービスの機能をテストするために、Azure の Cloud Shell で実行される単純なコマンドライン アプリケーションを使用します。
 
@@ -59,7 +59,7 @@ Custom Vision サービスの機能をテストするために、Azure の Cloud
 
     ![PowerShell が起動するまで待ちます。](media/read-text-computer-vision/powershell-prompt.png) 
 
-## <a name="configure-and-run-a-client-application"></a>クライアント アプリケーションを構成して実行する
+## クライアント アプリケーションを構成して実行する
 
 カスタム モデルが作成されたので、OCR サービスを使用する簡単なクライアント アプリケーションを実行できます。
 
@@ -85,7 +85,7 @@ Custom Vision サービスの機能をテストするために、Azure の Cloud
 
     ![画像内のテキストを分析するコードを含むエディター。](media/read-text-computer-vision/ocr-code.png)
 
-1. コードの詳細についてあまり心配しないでください。重要なのは、エンドポイント URL と Cognitive Services リソースのいずれかのキーが必要であることです。 Azure portal のリソースの **[キーとエンドポイント]** ページからこれらをコピーして、コード エディターに貼り付け、**YOUR_KEY** と **YOUR_ENDPOINT** プレースホルダーの値をそれぞれ置き換えます。
+1. コードの詳細についてあまり心配しないでください。重要なのは、エンドポイント URL と Azure AI サービス リソースのいずれかのキーが必要であることです。 Azure portal のリソースの **[キーとエンドポイント]** ページからこれらをコピーして、コード エディターに貼り付け、**YOUR_KEY** と **YOUR_ENDPOINT** プレースホルダーの値をそれぞれ置き換えます。
 
     > **ヒント** **[キーとエンドポイント]** および **[エディター]** ペインを操作するときに、区分線を使用して画面領域を調整しなければならないことがあります。
 
@@ -96,7 +96,7 @@ Custom Vision サービスの機能をテストするために、Azure の Cloud
     $endpoint="https..."
     ```
 
-1. エディター ペインの右上の **[...]** ボタンを使用してメニューを開き、**[保存]** を選択して変更を保存します。 次に、メニューを再度開き、**[エディターを閉じる]** を選択します。 キーとエンドポイントを設定したので、Cognitive Services リソースを使用して画像からテキストを抽出できます。
+1. エディター ペインの右上の **[...]** ボタンを使用してメニューを開き、**[保存]** を選択して変更を保存します。 次に、メニューを再度開き、**[エディターを閉じる]** を選択します。 キーとエンドポイントを設定したので、Azure AI サービス リソースを使用して画像からテキストを抽出できます。
 
     **Read** API を使用してみましょう。 ここでは、いくつかのテキストが含まれている、架空の Northwind Traders 小売会社の広告画像を使用します。
 
@@ -129,6 +129,6 @@ Custom Vision サービスの機能をテストするために、Azure の Cloud
 
 1. 2 番目の画像の分析結果を確認します。 また、テキストと、テキストと境界ボックスも返される必要があります。
 
-## <a name="learn-more"></a>詳細情報
+## 詳細情報
 
 このシンプルなアプリでは、Computer Vision サービスの一部の OCR 機能しか示されていません。 このサービスで実行できる操作の詳細については、[OCR のページ](https://docs.microsoft.com/azure/cognitive-services/computer-vision/overview-ocr)を参照してください。
