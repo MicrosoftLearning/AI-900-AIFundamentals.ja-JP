@@ -3,7 +3,7 @@ lab:
   title: 翻訳を調べる
 ---
 
-# <a name="explore-translation"></a>翻訳を調べる
+# 翻訳を調べる
 
 > **注** このラボを完了するには、管理者アクセス権が与えられている [Azure サブスクリプション](https://azure.microsoft.com/free?azure-portal=true)が必要です。
 
@@ -13,15 +13,15 @@ lab:
 
 Translator サービスの機能をテストするために、Cloud Shell で実行される単純なコマンドライン アプリケーションを使用します。 Web サイトや電話アプリなど、実際のソリューションにも同じ原則と機能が適用されます。
 
-## <a name="create-a-cognitive-services-resource"></a>*Cognitive Services* リソースを作成する
+## "Azure AI サービス" リソースを作成する**
 
-Translator サービスを使用するには、**Translator** リソースまたは **Cognitive Services** リソースを作成します。
+Translator サービスを使用するには、**Translator** リソースまたは **Azure AI サービス** リソースを作成します。
 
-まだ作成していない場合は、Azure サブスクリプションに **Cognitive Services** リソースを作成します。
+まだ作成していない場合は、Azure サブスクリプションで **Azure AI サービス** リソースを作成します。
 
 1. 別のブラウザー タブで Azure portal ([https://portal.azure.com](https://portal.azure.com?azure-portal=true)) を開き、Microsoft アカウントでサインインします。
 
-1. **[&#65291;リソースの作成]** ボタンをクリックして、「*Cognitive Services*」を検索し、次の設定を使用して **Cognitive Services** リソースを作成します。
+1. **[&#65291;リソースの作成]** ボタンをクリックし、「Azure AI サービス」を検索してください。** **[Azure AI** **サービスの作成]** プランを選択してください。 Azure AI サービス リソースを作成するためのページに移動します。 これを以下の設定で構成します。
     - **[サブスクリプション]**: *お使いの Azure サブスクリプション*。
     - **[リソース グループ]**: *一意の名前のリソース グループを選択するか、作成します*。
     - **リージョン**: 使用できるリージョンを選択します**
@@ -31,17 +31,17 @@ Translator サービスを使用するには、**Translator** リソースまた
 
 1. リソースを確認して作成し、デプロイが完了するまで待ちます。 次に、デプロイされたリソースに移動します。
 
-1. Cognitive Services リソースの **[キーとエンドポイント]** ページを表示します。 クライアント アプリケーションから接続するには、キーと場所が必要です。
+1. Azure AI サービス リソースの **[キーとエンドポイント]** ページを表示します。 クライアント アプリケーションから接続するには、キーと場所が必要です。
 
-### <a name="get-the-key-and-location-for-your-cognitive-services-resource"></a>Cognitive Services のリソースのキーと場所を取得する
+### Azure AI サービス リソースのキーと場所を取得する
 
-1. デプロイが完了するまで待ちます。 次に、Cognitive Services リソースに移動し、**[概要]** ページで、サービスのキーを管理するためのリンクを選択します。 クライアント アプリケーションから Cognitive Services リソースに接続するには、キーと場所が必要です。
+1. デプロイが完了するまで待ちます。 次に、Azure AI サービス リソースに移動し、 **[概要]** ページで、サービスのキーを管理するためのリンクを選択してください。 クライアント アプリケーションから Azure AI サービス リソースに接続するには、キーと場所が必要です。
 
 1. リソースの **[キーとエンドポイント]** ページを表示します。 クライアント アプリケーションから接続するには、**[場所/リージョン]** と **[キー]** が必要です。
 
-> **注** Translator サービスを使用するために、Cognitive Service エンドポイントを使用する必要はありません。 Translator サービスのみのためのグローバル エンドポイントが提供されています。 
+> **注** Translator サービスを使用するために、Azure AI サービス エンドポイントを使用する必要はありません。 Translator サービスのみのためのグローバル エンドポイントが提供されています。 
 
-## <a name="run-cloud-shell"></a>Cloud Shell の実行
+## Cloud Shell の実行
 
 翻訳サービスの機能をテストするために、Azure の Cloud Shell で実行される単純なコマンドライン アプリケーションを使用します。 
 
@@ -63,7 +63,7 @@ Translator サービスを使用するには、**Translator** リソースまた
 
     ![PowerShell が起動するまで待ちます。](media/translate-text-and-speech/powershell-prompt.png)
 
-## <a name="configure-and-run-a-client-application"></a>クライアント アプリケーションを構成して実行する
+## クライアント アプリケーションを構成して実行する
 
 カスタム モデルがあるので、翻訳サービスを使用する簡単なクライアント アプリケーションを実行できます。
 
@@ -89,7 +89,7 @@ Translator サービスを使用するには、**Translator** リソースまた
 
     ![Translator サービスを使用するコードが表示されているエディター](media/translate-text-and-speech/translate-code.png)
 
-1. コードの詳細についてあまり心配しないでください。重要なのは、Cognitive Services リソースのリージョン/場所といずれかのキーが必要であることです。 Azure portal のリソースの **[キーとエンドポイント]** ページからこれらをコピーして、コード エディターに貼り付け、**YOUR_KEY** と **YOUR_LOCATION** プレースホルダーの値をそれぞれ置き換えます。
+1. コードの詳細についてあまり心配しないでください。重要なのは、Azure AI サービス リソースのリージョンまたは場所といずれかのキーが必要であることです。 Azure portal のリソースの **[キーとエンドポイント]** ページからこれらをコピーして、コード エディターに貼り付け、**YOUR_KEY** と **YOUR_LOCATION** プレースホルダーの値をそれぞれ置き換えます。
 
     キーと場所の値を貼り付けると、コードの先頭の数行は次のようになります。
 
@@ -120,6 +120,6 @@ Translator サービスを使用するには、**Translator** リソースまた
 
 1. 出力結果を確認します。 英語のテキストがフランス語、イタリア語、中国語に翻訳されましたか?  英語のオーディオ "hello" がフランス語のテキストに変換されましたか?
 
-## <a name="learn-more"></a>詳細情報
+## 詳細情報
 
 この簡単なアプリでは、Translator サービスの一部の機能のみを示しています。 このサービスで実行できる操作の詳細については、[Translator のページ](https://docs.microsoft.com/azure/cognitive-services/translator/translator-overview)を参照してください。
