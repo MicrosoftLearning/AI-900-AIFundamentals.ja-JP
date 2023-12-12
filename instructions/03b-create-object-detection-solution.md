@@ -19,7 +19,7 @@ Custom Vision サービスの機能をテストして画像内の物体を検出
 
 Custom Vision サービスは、**Custom Vision** リソースまたは **Azure AI サービス** リソースを作成することで使用できます。
 
-> **注** すべてのリソースをすべてのリージョンで利用できるわけではありません。 Custom Vision と Azure AI サービスのどちらのリソースを作成しても、[特定のリージョン](https://azure.microsoft.com/global-infrastructure/services/?products=cognitive-services)で作成されたリソースのみを使用して、Custom Vision サービスにアクセスできます。 わかりやすくするために、以下の構成手順ではリージョンが事前に選択されています。
+> **注** すべてのリソースをすべてのリージョンで利用できるわけではありません。 Custom Vision または Azure AI サービスのどちらのリソースを作成しても、[特定のリージョン](https://azure.microsoft.com/global-infrastructure/services/?products=cognitive-services)で作成されたリソースのみを使用して、Custom Vision サービスにアクセスできます。 わかりやすくするために、以下の構成手順ではリージョンが事前に選択されています。
 
 Azure サブスクリプションで **Azure AI サービス** リソースを作成してください。
 
@@ -164,7 +164,7 @@ Custom Vision サービスの機能をテストするために、Azure の Cloud
 
     Custom Vision プロジェクトのブラウザー タブで開いたままになっているダイアログ ボックスから、"予測 URL" と "予測キー" を取得します。** ** "画像 URL がある場合" は、使用するバージョンが必要です。**
 
-    これらの値を使用して、コード ファイル内の **YOUR_PREDICTION_URL** と **YOUR_PREDICTION_KEY** のプレース ホルダーを置き換えます。
+    これらの値を使用して、コード ファイル内の **YOUR_PREDICTION_URL** と **YOUR_PREDICTION_KEY** のプレースホルダーを置き換えます。
 
     予測 URL と予測キーの値を貼り付けた後、最初の 2 行のコードはこのようになるはずです。
 

@@ -70,8 +70,8 @@ Azure Machine Learning デザイナーの使用を開始するには、最初に
         - **[説明]**: ペンギンのデータ
         - **データセットの種類**:表形式
     - **データ ソース**: Web ファイルから
-    - **Web URL**: 
-        - **Web URL**: https://aka.ms/penguin-data
+    - **Web URL**:
+        - **[Web URL]**: https://aka.ms/penguin-data
         - **データ検証のスキップ**: "選択しないでください"**
     - **設定**:
         - **[ファイル形式]**: 区切り記号付き

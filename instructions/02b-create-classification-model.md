@@ -63,8 +63,8 @@ lab:
         - **説明**:糖尿病データ
         - **データセットの種類**:表形式
     - **データ ソース**: Web ファイルから
-    - **Web URL**: 
-        - **Web URL**: https://aka.ms/diabetes-data
+    - **Web URL**:
+        - **[Web URL]**: https://aka.ms/diabetes-data
         - **データ検証のスキップ**: "選択しないでください"**
     - **設定**:
         - **[ファイル形式]**: 区切り記号付き
@@ -93,7 +93,7 @@ Azure Machine Learning デザイナーの使用を開始するには、最初に
 
     ![デザイナー資産ライブラリ、検索バー、データ アイコンの場所のスクリーンショット。](media/create-classification-model/designer-asset-library-data.png)
 
-1. **[データ]** を選択します。 **diabetes-data** データセットを検索し、キャンバスに配置します。
+1. **データ** を選択します。 **diabetes-data** データセットを検索し、キャンバスに配置します。
 
 1. キャンバス上で **diabetes-data** データセットを右クリック (Mac では Ctrl キーを押しながらクリック) し、 **[データのプレビュー]** を選択します。
 
