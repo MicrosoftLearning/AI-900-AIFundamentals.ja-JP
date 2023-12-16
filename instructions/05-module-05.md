@@ -52,7 +52,7 @@ lab:
 
 1. プロンプトに次のように入力します: `Translate that into C#`。 Bing Copilot が会話履歴を参照することで理解するため、"that" が何であるかを指定する必要がなかったことに注意してください。 
 
-## Bonus 
+## 賞与 
 
 1. プロンプトに次のように入力します: `What are 3 examples of generative AI helping people?`。 これは、自分独自の Copilot のアイデアをブレーンストーミングする方法として使用できます。  
 
